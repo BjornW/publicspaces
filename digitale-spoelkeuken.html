@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="nl-NL">
+	<head>
+		<meta charset="UTF-8">
+	  <title>De Digitale Spoelkeuken </title>
+	  <meta name="description" content="Gebruik de Digitale Spoelkeuken om te bepalen waar uw organisatie staat met betrekking tot het gebruik van digitale instrument die voldoen aan publieke waarden." />
+    <style>
+      body {
+        font-size: 16px;
+        font-family: sans-serif; 
+        background-color: #fff;
+        color: #333;   
+      }
+
+      ul {
+        list-style: none;
+        padding: 0;   
+      }
+
+      li {
+        padding: 0.5rem; 
+      }
+
+      section.open fieldset {
+        background-color: #EBF2FA; 
+      }
+      
+
+    </style>
+  </head>
+  <body>
+  <header> 
+    <p>Introductie tekst. @TODO Per tool een formulier</p>
+  
+  </header>
+  <main>
+    <form name="civic-values-checkup">
+      <h1>Checkup</h1>
+      <p>tekst</p>
+      <fieldset>
+        <legend>Tool</legend>
+        <p>
+        <label for="tool_name">Naam van de tool: </label>
+        <input type="text" maxlength="255" minlength="2" id="tool_name" name="tool_name">
+        </p>
+      </fieldset>
+      
+      <section class='open'>
+        <h2>Onderdeel: Open</h2>
+        
+        <fieldset>
+          <legend>Is de broncode van de software beschikbaar zonder extra kosten?</legend>
+          <p>
+            <ul>  
+              <li><input type="radio" name="r1" id="r1_y" value="yes"><label for="r1_y">Ja</label></li>
+              <li><input type="radio" name="r1" id="r1_n"  value="no"><label for="r1_n">Nee</label></li>
+              <li><input type="radio" name="r1" id="r1_e"  value="examine"><label for="r1_e">Uitzoeken</label></li>
+              <li><input type="radio" name="r1" id="r1_i"  value="irrelevant"><label for="r1_i">Niet relevant</label></li>
+            </ul>
+
+            <details>
+              <summary>Toelichting</summary>
+              Iedereen kan de code bekijken, gemakkelijk begrijpen en goed herleidbaar.
+            </details>
+                
+            <details>
+              <summary>Opmerking</summary>
+              De code is zowel door iedereen te bekijken en is goed herleidbaar.
+            </details>
+          </p>
+        </fieldset>  
+
+
+        <fieldset>
+          <legend>Kan de broncode worden hergebruikt in andere nieuwe software?</legend>
+          <p>
+            <ul>  
+              <li><input type="radio" name="r2" id="r2_y" value="yes"><label for="r2_y">Ja</label></li>
+              <li><input type="radio" name="r2" id="r2_n"  value="no"><label for="r2_n">Nee</label></li>
+              <li><input type="radio" name="r2" id="r2_e"  value="examine"><label for="r2_e">Uitzoeken</label></li>
+              <li><input type="radio" name="r2" id="r2_i"  value="irrelevant"><label for="r2_i">Niet relevant</label></li>
+            </ul>
+
+            <details>
+              <summary>Toelichting</summary>
+            Iedereen kan zonder problemen in de broncode werken en zijn eigen programma ervan distribueren.
+            </details>
+                
+            <details>
+              <summary>Opmerking</summary>
+            Iedereen kan zonder problemen in de broncode werken en zijn eigen programma ervan distribueren.
+            </details>
+          </fieldset>  
+        </p>
+      </section>
+
+
+    </form>
+  </main>
+
+  </body>
+</html>

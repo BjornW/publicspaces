@@ -1,2 +1,2 @@
 # publicspaces
-Publicspaces spoelkeuken PoC
+Publicspaces spoelkeuken PoC in een stand-alone html bestandje
